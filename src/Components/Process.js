@@ -1,23 +1,36 @@
-import React from 'react'
+import {React} from 'react'
 
-const Process = () => {
+const Process = (Add) => 
+{
+  const del=(event)=>
+  {
+    event.preventDefault()
+
+  }
+  // const handleChange=(event)=>
+  // {
+  //   const [value,checked]=event.target
+  //   if(checked)
+  //   {
+
+  //   }
+  // }
+  // const change=(Add)=>
+  // {
+  //   if(Add===id)
+  //   { 
+
+  //   }
+  //   else
+  //   {
+
+  //   }
+
+    
+  // }
 
   return (
     <div>
-    <form>
-    <h2>
-        Filter
-    </h2>
-    <input type="checkbox" />
-    <labe>Pending</labe>
-    <input type="checkbox" />
-    <labe>In Process</labe>
-    <input type="checkbox" />
-    <labe>Completed</labe>
-    
-    <div>
-    </div>
-    </form> 
     </div>
   )
 }
